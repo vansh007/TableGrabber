@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg2">
+    
+    <TextView
+        android:id="@+id/tv_tablemap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tablemap"
+     	android:gravity="center"
+     	android:textColor="#A2F368"
+     	android:textSize="25sp"
+     	android:typeface="serif"
+     />
+           
+    <View 
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dp"
+    	android:layout_marginBottom="5dp"
+    	android:background="#C0C0C0"
+    />
+
+     <Button
+           android:id="@+id/btn_Proceed"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/btnproceed"
+           android:typeface="serif"
+           android:layout_marginTop="325dp" />
+
+    
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg2">
+    
+     <TextView 
+     	android:id="@+id/tv_guestinfo"   
+     	android:layout_width="match_parent"
+     	android:layout_height="wrap_content"
+     	android:text="@string/guestinfo"
+     	android:gravity="center"
+     	android:textStyle="bold"
+     	android:layout_marginTop="10dp"
+     	android:layout_marginBottom="10dp"
+     	android:typeface="serif"
+     	android:textAppearance="?android:attr/textAppearanceLarge"
+    />
+     
+     <View 
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dp"
+    	android:layout_marginBottom="10dp"
+    	android:background="#C0C0C0"
+    />
+     
+     <EditText 
+    	android:id="@+id/et_guestname"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="@string/username"
+    	android:typeface="serif"
+    	android:ems="10"
+    />
+     
+     <EditText 
+    	android:id="@+id/et_emailid"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="@string/email"
+    	android:typeface="serif"
+    	android:ems="10"
+    />
+     
+     <EditText 
+    	android:id="@+id/et_mobileno"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="@string/mobileno"
+    	android:typeface="serif"
+    	android:ems="10"
+    />
+
+     <EditText
+         android:id="@+id/et_address"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:inputType="textPostalAddress" 
+         android:hint="address"
+         
+     />
+
+     <Button
+           android:id="@+id/btn_Proceed"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/btnproceed"
+           android:typeface="serif"
+           android:layout_marginTop="10dp" />
+     
+</LinearLayout>

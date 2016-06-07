@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tg"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+	<!-- Network State Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+   
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        
+        
+        
+        
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+      
+        
+        
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.tg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Signup"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.tg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ForgetPassword"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.tg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.tg.list.CityListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.tg.list" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.tg.list.RestaurantListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.tg.list" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.tg.list.SingleRestaurantActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.tg.list" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".SelectRegion"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.tg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".City_Adapter"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.tg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".SearchRestaurant"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.tg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+               <activity
+            android:name=".SearchResult"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.tg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".RestaurantDetailsTab"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.tg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".BookTable"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.tg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".BookSummary"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.tg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".EditPersonalDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.tg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+        <activity
+            android:name=".TableMap"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.tg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".GuestInfo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.tg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+ </manifest>

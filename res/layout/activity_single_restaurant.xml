@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    
+    android:background="@drawable/purplelogo" >
+    
+    <!-- Song Title -->
+    <TextView android:id="@+id/hotel_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dip"
+        android:padding="10dip"
+        android:textColor="#444444"
+        android:textStyle="bold"/>
+    
+    <!-- City Name -->
+	<TextView android:id="@+id/city_name"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="10dip"
+	    android:textSize="15dip"
+	    android:textColor="#000000"
+	    android:paddingBottom="10dip"/>
+	
+	<!-- Hotel Area -->
+	<TextView android:id="@+id/area"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="10dip"
+	    android:textSize="15dip"
+	    android:textColor="#000000"
+	    android:paddingBottom="10dip"/>
+
+	<!-- Hotel Area -->
+	<TextView android:id="@+id/address"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="10dip"
+	    android:textSize="15dip"
+	    android:textColor="#000000"
+	    android:paddingBottom="10dip"/>
+	
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Proceed" 
+	    android:layout_gravity="bottom|center_horizontal"/>
+	
+</LinearLayout>

@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+     >
+
+    <TextView
+        android:id="@+id/tv_tablegrabber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tablegrabber"
+     	android:gravity="center"
+     	android:textColor="#A2F368"
+     	android:textSize="25sp"
+     	android:typeface="serif"
+     />
+    
+    <View 
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dp"
+    	android:layout_marginBottom="10dp"
+    	android:background="#C0C0C0"
+    />
+    
+    <TextView
+        android:id="@+id/tv_searchheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/searchheading"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+     	android:typeface="serif"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView 
+        android:id="@+id/tv_searchrestname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/searchrestname"
+       	android:textStyle="bold"
+        android:typeface="serif"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    
+    
+    <EditText 
+        android:id="@+id/et_searchbyname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/hintsearchrestau"/>
+    <Button 
+        android:id="@+id/btn_searchnow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnsearchnow"
+        android:typeface="serif"/>
+    
+     <Button 
+        android:id="@+id/btn_nearbyrest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnsearchnearbyrest"
+        android:typeface="serif"/>
+
+</LinearLayout>

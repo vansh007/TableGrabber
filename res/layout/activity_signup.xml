@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical" 
+    tools:context="com.example.registrationscreen.RegisterActivity" >
+
+     <TextView
+            android:id="@+id/tv_tablegrabber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tablegrabber"
+            android:gravity="center"
+            android:textColor="#A2F368"
+            android:textSize="25sp"
+            android:typeface="serif" 
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+       
+    <View                                      
+   			android:layout_width="fill_parent"
+			android:layout_height="2dp" 
+			android:layout_marginBottom="0dp"      
+			android:background="#C0C0C0"
+	/>
+    	
+    <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup"
+            android:gravity="center"
+            android:layout_marginTop="0dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+     />
+    
+    <EditText
+        	android:id="@+id/et_name"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+	        android:hint="@string/name"
+	        android:ems="10" 
+	        android:typeface="serif">
+	        <requestFocus />
+	</EditText>
+	
+       <EditText
+        	android:id="@+id/et_password"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+	        android:hint="@string/password"
+	        android:inputType="textPassword"
+	        android:ems="10" 
+	        android:typeface="serif">
+	        <requestFocus />
+	</EditText>
+
+    <EditText
+        android:id="@+id/et_confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/confirmpassword"
+        android:inputType="textPassword"
+        android:typeface="serif" />
+	
+    <EditText
+        	android:id="@+id/et_email"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+	        android:hint="@string/email"
+	        android:inputType="textEmailAddress"
+	        android:ems="10"
+	        android:typeface="serif" >
+	        <requestFocus />
+	</EditText>
+    
+    <EditText
+        android:id="@+id/et_mobileno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/mobileno"
+        android:inputType="phone"
+        android:typeface="serif" >
+
+	        <requestFocus />
+	</EditText>
+	
+     
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnsubmit" />
+    
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btncancel" />
+
+	
+	
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TG</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tablegrabber">TABLE GRABBER</string>
+    <string name="login">Login</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="btnlogin">Login</string>
+    <string name="btncancel">Cancel</string>
+    <string name="btn_selectcity">Select City</string>
+    <string name="btnsignup">Signup</string>
+    <string name="forgetpassword">Forget Your Password?</string>
+    <string name="name">Full Name</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="signup">Registration</string>
+    <string name="mobileno">Mobile Number</string>
+    <string name="email">Email id</string>
+    <string name="btnsubmit">Submit</string>
+    <string name="skiplogin">Ill Skip Login</string>
+    <string name="pickregion">Pick a region</string>
+    <string name="btnnearbyme">Near By me Auto detect</string>
+    <string name="searchbycity">Search By City</string>
+    <string name="btnnext">Next</string>
+    <string-array name="Citylist">
+	    <item>Ahmedabad</item>
+	    <item>Mumbai</item>
+	</string-array>
+    <string name="searchheading">Search</string>
+    <string name="searchrestname">Name / Location</string>
+    <string name="hintsearchrestau">eg: Saffron, Courtyard Mariot, Naranpura etc</string>
+    <string name="btnsearchnow">Search Now</string>
+    <string name="btnsearchnearbyrest">Search NearBy Restaurant</string>
+    <string name="searchresultheading">Search Result</string>
+    <string name="tbcity">Table Booking- CityName</string>
+    
+    <string name="bookatableheading">Book a Table</string>
+    <string name="guestnumber">Number of Guests</string>
+    <string name="selectdatetime">Select Date And Timeslot</string>
+    <string name="enteremailid">Enter Email id</string>
+    <string name="entermobileno">Enter Mobile no</string>
+    <string name="btnbooktable">Book Table</string>
+    <string name="tablemap">Table Map</string>
+    <string name="btnproceed">Proceed</string>
+    <string name="enterguestname">Enter Guest Name</string>
+    <string name="guestname">Guest Name</string>
+    <string name="guestinfo">Guest Information</string>
+    <string name="persondetails">Person Details</string>
+    <string name="booksummaryheading">Book Summary</string>
+    <string name="restaurantname">Restaurant Name</string>
+    <string name="fptext">Enter your registered mobile number here and password will be sent to your mobile.</string>
+    <string name="send">Send</string>
+    <string name="restaurantprofile">Restaurant Profile</string>
+    <string name="restaurantaddress">Address</string>
+    <string name="btnmenu">Menu</string>
+    <string name="menulist">Menu Preferences</string>
+    <string name="noofguest">No of Guest -&gt;</string>
+    <string name="amountdetails">Amount Details Summary -&gt;</string>
+    <string name="personaldetails">Personal Detail Summary</string>
+    <string name="change">Change</string>
+    <string name="proceedtopayment">Proceed to Payment</string>
+    <string name="selectcity">Select a City</string>
+    
+   
+
+</resources>

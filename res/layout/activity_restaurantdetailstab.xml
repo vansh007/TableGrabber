@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical" >
+    
+    <TextView
+
+        android:id="@+id/tv_restaurantname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurantname"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"  />
+    
+    <TextView
+
+        android:id="@+id/tv_restaurantaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurantaddress"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"  />
+    
+    <View                                      
+   			android:layout_width="fill_parent"
+			android:layout_height="2dp" 
+			android:layout_marginBottom="0dp"      
+			android:background="#C0C0C0"
+	/>
+    
+    <TextView
+            android:id="@+id/tv_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menulist"
+            android:gravity="center"
+            android:layout_marginTop="0dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="0dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+     />
+        
+      
+        
+    <Button 
+        android:id="@+id/btn_booktable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnbooktable"
+        android:layout_marginTop="220dp"
+        />
+    </LinearLayout>

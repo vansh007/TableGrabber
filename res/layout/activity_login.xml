@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2" 
+    android:orientation="vertical">
+    
+    
+    <TextView
+        android:id="@+id/tv_tablegrabber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tablegrabber"
+     	android:gravity="center"
+     	android:textColor="#A2F368"
+     	android:textSize="25sp"
+     	android:typeface="serif"
+     />
+    
+    <View 
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dp"
+    	android:layout_marginBottom="10dp"
+    	android:background="#C0C0C0"
+    />
+    
+    <TextView 
+     	android:id="@+id/tv_login"   
+     	android:layout_width="match_parent"
+     	android:layout_height="wrap_content"
+     	android:text="@string/login"
+     	android:gravity="center"
+     	android:textStyle="bold"
+     	android:layout_marginTop="10dp"
+     	android:layout_marginBottom="10dp"
+     	android:typeface="serif"
+     	android:textAppearance="?android:attr/textAppearanceLarge"
+    />
+    
+    <EditText 
+    	android:id="@+id/et_username"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="@string/username"
+    	android:typeface="serif"
+    	android:ems="10"
+    />
+    
+    <EditText 
+    	android:id="@+id/et_password"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="textPassword"
+    	android:hint="@string/password"
+    	android:typeface="serif"
+    	android:ems="10"
+    />
+    
+    <Button 
+    	android:id="@+id/btn_login"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/btnlogin"
+    	android:typeface="serif"
+    />
+    
+       
+    <Button 
+    	android:id="@+id/btn_signup"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/btnsignup"
+    	android:typeface="serif"
+    />
+    
+    <TextView
+            android:id="@+id/tv_forgetpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/forgetpassword"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+            android:id="@+id/tv_skiplogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/skiplogin"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    
+
+        
+   
+
+</LinearLayout>

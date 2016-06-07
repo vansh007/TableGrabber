@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2" >
+
+    <TextView
+        android:id="@+id/tv_tablegrabber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tablegrabber"
+     	android:gravity="center"
+     	android:textColor="#A2F368"
+     	android:textSize="25sp"
+     	android:typeface="serif"
+     />
+           
+    <View 
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dp"
+    	android:layout_marginBottom="10dp"
+    	android:background="#C0C0C0"
+    />
+    
+    <TextView
+        android:id="@+id/tv_searchresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/searchresultheading"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+     	android:typeface="serif"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_tbcity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tbcity"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <View 
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dp"
+    	android:layout_marginTop="10dp"
+    	android:layout_marginBottom="10dp"
+    	android:background="#C0C0C0"
+    />
+
+    <TextView
+        android:id="@+id/tv_restaurantlist"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:text="Restaurants List"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+     
+      
+    
+
+</LinearLayout>

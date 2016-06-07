@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >
+
+    <!-- City id / Hidden by default -->
+    <TextView
+        android:id="@+id/city_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <!-- Hotel id / Hidden by default -->
+    <TextView
+        android:id="@+id/hotel_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    
+    <!-- Restaurant serial no -->
+    <TextView
+        android:id="@+id/restaurant_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dip"
+        android:paddingLeft="5dip"
+        android:paddingTop="15dip"
+        android:textColor="#000000"
+        android:textSize="16dip"
+        android:layout_alignParentLeft="true"/>
+
+    <!-- Hotel Name -->
+    <TextView
+        android:id="@+id/city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dip"
+        android:paddingLeft="5dip"
+        android:paddingTop="15dip"
+        android:textColor="#000000"
+        android:textSize="16dip"
+        android:layout_toRightOf="@+id/restaurant_no"/>
+
+    <!-- Hotel Area -->
+    <TextView
+        android:id="@+id/hotel_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="3dip"
+        android:paddingRight="6dip"
+        android:textColor="#9ed321" />
+
+</RelativeLayout>

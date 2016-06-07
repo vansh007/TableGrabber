@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/tv_booksummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/booksummaryheading"
+     	android:gravity="center"
+     	android:textColor="#A2F368"
+     	android:textSize="25sp"
+     	android:typeface="serif"
+     />
+    
+     <View 
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dp"
+    	android:layout_marginBottom="0dp"
+    	android:background="#C0C0C0"
+    />
+     
+     <TextView
+
+        android:id="@+id/tv_restaurantname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurantname"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"  />
+    
+    <TextView
+
+        android:id="@+id/tv_restaurantaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurantaddress"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"  />
+    
+    <View 
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dp"
+    	android:layout_marginBottom="0dp"
+    	android:background="#C0C0C0"
+    />
+    
+    <TextView
+
+        android:id="@+id/tv_guestsummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noofguest"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"  />
+    
+    <TextView
+
+        android:id="@+id/tv_amountdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/amountdetails"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"  />
+    
+    <View 
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dp"
+    	android:layout_marginBottom="0dp"
+    	android:background="#C0C0C0"
+    />
+    
+    
+    <TextView
+
+        android:id="@+id/tv_personaldetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/personaldetails"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"  />
+    
+   
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textAppearance="?android:attr/textAppearanceMedium"  />
+    
+    
+   <TextView
+       android:id="@+id/tv_emailid"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/email"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+
+   <TextView
+       android:id="@+id/tv_mobileno"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/mobileno"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+
+   <Button
+       android:id="@+id/btn_change"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/change"
+       android:layout_marginLeft="115dp" />
+   
+   <View 
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dp"
+    	android:layout_marginBottom="10dp"
+    	android:background="#C0C0C0"
+    />
+   
+   <Button 
+        android:id="@+id/btn_proceedtopayment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/proceedtopayment"
+        />
+
+</LinearLayout>
